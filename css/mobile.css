@@ -1,0 +1,16 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mobile-header-list,
+  .mobile-adress {
+    display: none;
+  }
+}
