@@ -1,16 +1,26 @@
 @media screen and (min-width: 480px) {
   .container {
-    width: 428px;
+    max-width: 428px;
   }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 428px), (min-width: 767px) {
   .mobile-header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
   }
   .mobile-header-list,
   .mobile-adress {
+    display: none;
+  }
+  .features-list-link,
+  .features-list-icon {
+    display: none;
+  }
+  .link-item {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px), (min-width: 767px) {
+  .main-gallery {
     display: none;
   }
 }

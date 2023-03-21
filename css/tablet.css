@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-bottom: 112px;
+    padding-top: 112px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .features-list-link,
+  .features-list-icon {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-gallery {
+    display: none;
+  }
+}
