@@ -1,4 +1,20 @@
 @media screen and (min-width: 768px) {
+  .navigation-page {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .mobile-btn {
+    display: none;
+  }
+  .mobile-header-list {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .hero {
     padding-bottom: 112px;
     padding-top: 112px;
@@ -6,7 +22,7 @@
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 736px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 768px) {
