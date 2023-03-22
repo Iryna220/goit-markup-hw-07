@@ -1,6 +1,14 @@
 @media screen and (min-width: 480px) {
   .container {
     max-width: 428px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 }
 @media screen and (min-width: 428px), (min-width: 767px) {
@@ -21,7 +29,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 320px), (min-width: 767px) {
+@media screen and (min-width: 480px), (min-width: 767px) {
   .main-gallery {
     display: none;
   }

@@ -1,16 +1,20 @@
-@media screen and (min-width: 1200px) {
-  .hero {
-    padding-bottom: 188px;
-    padding-top: 188px;
-  }
-}
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
+  }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 @media screen and (min-width: 1200px) {
   .adress-page {
     display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-bottom: 188px;
+    padding-top: 188px;
   }
 }

@@ -1,4 +1,14 @@
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .navigation-page {
     padding-top: 0;
     padding-bottom: 0;
@@ -20,11 +30,7 @@
     padding-top: 112px;
   }
 }
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
+
 @media screen and (min-width: 768px) {
   .features-list-link,
   .features-list-icon {
