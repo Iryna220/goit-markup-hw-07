@@ -1,6 +1,9 @@
 @media screen and (min-width: 480px) {
   .container {
     max-width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+    background: teal;
   }
 }
 @media screen and (min-width: 428px), (min-width: 767px) {
@@ -8,7 +11,8 @@
     display: flex;
   }
   .mobile-header-list,
-  .mobile-adress {
+  .mobile-adress,
+  .adress-page {
     display: none;
   }
   .features-list-link,
