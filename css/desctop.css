@@ -11,8 +11,26 @@
   .adress-page {
     display: flex;
   }
+  .nav-link:not(:last-child) {
+    margin-right: 40px;
+  }
   .logo-first {
     margin-right: 76px;
+  }
+  .contact-item {
+    display: block;
+    padding: 24px 0;
+  }
+  .contact-adress {
+    display: flex;
+    align-items: center;
+  }
+  .link-item {
+    padding: 24px 0;
+  }
+  .adress-mail {
+    margin-left: auto;
+    margin-right: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
