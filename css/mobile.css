@@ -34,7 +34,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
   .modal {
     width: calc(100% - (15px * 2));
   }
@@ -50,5 +50,35 @@
   }
   .mob-social {
     margin-top: auto;
+  }
+}
+@media (min-device-pixel-ratio: 1),
+  (-webkit-min-device-pixel-ratio: 1),
+  (-o-min-device-pixel-ratio: 1/1),
+  (min-resolution: 96dpi),
+  (min-resolution: 1dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/mobile.bg/mobile-bg.jpg");
+    background: var(--primary-text-color);
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/mobile.bg/mobile-bg@2x.jpg");
+    background: var(--primary-text-color);
   }
 }

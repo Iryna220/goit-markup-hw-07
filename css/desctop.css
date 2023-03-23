@@ -1,6 +1,6 @@
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .container {
-    max-width: 1158px;
+    width: 1158px;
   }
   .section {
     padding-top: 120px;
@@ -35,5 +35,44 @@
   .hero {
     padding-bottom: 188px;
     padding-top: 188px;
+    max-width: 1440px;
+    height: 600px;
+  }
+  .titel-hero {
+    max-width: 496px;
+    margin: 0 auto 48px;
+    font-weight: 700px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+}
+@media (min-device-pixel-ratio: 1),
+  (-webkit-min-device-pixel-ratio: 1),
+  (-o-min-device-pixel-ratio: 1/1),
+  (min-resolution: 96dpi),
+  (min-resolution: 1dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/herobg.jpg");
+    background: var(--primary-text-color);
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/desctop/people-office1@2x.jpg");
+    background: var(--primary-text-color);
   }
 }

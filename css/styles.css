@@ -273,19 +273,18 @@ img {
   background-color: var(--accent-kolor);
 }
 .title-hero {
-  margin-top: 0;
-  margin-bottom: 48px;
-  max-width: 496px;
-  margin: 0 auto 48px;
+  max-width: 320px;
+  margin: 0 auto 72px;
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--background-origin);
 }
 .hero {
-  max-width: 1440px;
+  max-width: 428px;
+  height: 432px;
   background: var(--primary-text-color);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -295,12 +294,13 @@ img {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   outline: 1px solid black;
   text-align: center;
   margin: 0 auto;
 }
+
 .btn-hero:hover,
 .btn-hero:focus {
   color: var(--background-origin);
