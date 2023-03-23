@@ -11,6 +11,9 @@
   .adress-page {
     display: flex;
   }
+  .logo-first {
+    margin-right: 76px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero {

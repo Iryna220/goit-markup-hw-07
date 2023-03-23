@@ -11,7 +11,7 @@
     padding-bottom: 96px;
   }
 }
-@media screen and (min-width: 428px), (min-width: 767px) {
+@media screen and (min-width: 428px) {
   .mobile-header {
     display: none;
   }
@@ -27,6 +27,9 @@
   .phone-number,
   .adress-mail {
     display: none;
+  }
+  .logo-first {
+    margin-right: 120px;
   }
 }
 @media screen and (min-width: 480px), (min-width: 767px) {
@@ -45,8 +48,10 @@
   .media-list-link:not(:last-child) {
     margin-right: 28px;
   }
-  .mob-social-phone,
-  .mob-social-mail {
-    font-size: 26px;
+  .mob-social-phone {
+    font-size: 36px;
+  }
+  .mob-social {
+    margin-top: auto;
   }
 }
