@@ -17,10 +17,10 @@
     padding-bottom: 0;
   }
   .navigation-text {
-    margin-right: 122px;
+    margin: auto;
   }
   .contact-item {
-    margin-bottom: 12px;
+    margin: auto;
   }
   .mobile-menu {
     display: none;
@@ -29,17 +29,18 @@
     display: none;
   }
   .mobile-header-list {
-    margin-left: 120px;
+    margin: 0;
   }
   .mobile-header-list {
     display: flex;
   }
   .adress-page {
-    display: block;
-    margin-right: 120px;
+    display: flex;
+
     padding-top: 16px;
     padding-right: 16px;
     padding-bottom: 16px;
+    margin-left: 122px;
   }
 }
 
