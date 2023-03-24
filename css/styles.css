@@ -283,8 +283,7 @@ img {
   color: var(--background-origin);
 }
 .hero {
-  max-width: 428px;
-  height: 432px;
+  max-width: 1440px;
   background: var(--primary-text-color);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -325,4 +324,37 @@ img {
 .btn-hero:focus {
   color: var(--background-origin);
   background: var(--accent-kolor);
+}
+.features-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  background: var(--icons-color);
+  margin-bottom: 8px;
+}
+.features-list {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.features-description {
+  display: flex;
+  gap: 24px;
+}
+.features-caption {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.features-text {
+  width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
 }

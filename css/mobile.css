@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 428px;
+    width: 428px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -51,6 +51,13 @@
   .mob-social {
     margin-top: auto;
   }
+  .hero {
+    max-width: 428px;
+    height: 432px;
+  }
+  .titel-hero {
+    font-size: 36px;
+  }
 }
 @media screen and (min-width: 480px) {
   .hero {
@@ -72,5 +79,29 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/mobile.bg/mobile-bg@2x.jpg);
+  }
+}
+@media screen and (min-width: 480px) {
+  .features-description {
+    display: block;
+  }
+  .features-text {
+    display: flex;
+    width: 396px;
+    margin-bottom: 72px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .features-caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(#2e2f42);
   }
 }
