@@ -98,10 +98,10 @@
     column-gap: 24px;
   }
   .features-text {
-    margin: 0;
   }
   .features-list {
     margin: 0;
+    width: calc((100% - 24px) / 2);
   }
   .features-caption {
     text-align: start;

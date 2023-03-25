@@ -69,6 +69,11 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .features-list-link,
+  .features-list-icon {
+    display: block;
+  }
+
   .features-list-link {
     display: flex;
     justify-content: center;
@@ -104,6 +109,9 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .main-gallery {
+    display: block;
+  }
   .main-titel {
     margin-bottom: 72px;
     font-weight: 700;
