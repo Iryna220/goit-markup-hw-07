@@ -31,18 +31,21 @@
   .mobile-header-list {
     margin: 0;
   }
+  .mob-social {
+    margin-top: auto;
+  }
   .mobile-header-list {
     display: flex;
   }
   .adress-page {
     display: flex;
-    margin-left: 122px;
+    margin-left: auto;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .hero {
-    max-width: 768px;
+    min-width: 768px;
     height: 436px;
   }
   .title-hero {
@@ -85,5 +88,17 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/tablet.bg/tablet-bg@2x.jpg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .features-description {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .features-list {
+    margin: 0;
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
