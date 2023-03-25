@@ -358,3 +358,21 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
+.main-titel {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+.main-description {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 120px;
+}
+.main-photo {
+  flex-basis: calc((100% - 2 * 24px) / 3);
+  border: 1px solid #e7e9fc;
+}

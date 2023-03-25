@@ -344,7 +344,7 @@ img {
   gap: 16px;
   margin: 0;
 }
-
+/* portfolio */
 .gallery-content {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -450,6 +450,7 @@ img {
 .gallery-item-list:focus .overlay {
   transform: translate(0, 0);
 }
+/* modal */
 .backdrop {
   position: fixed;
   top: 0;
@@ -676,6 +677,7 @@ img {
   background-color: var(--accent-kolor);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+/* footer subscribe part */
 .subscribe-titel {
   display: flex;
   font-weight: 500;
