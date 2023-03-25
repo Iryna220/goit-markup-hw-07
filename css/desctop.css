@@ -131,3 +131,63 @@
     border: 1px solid #e7e9fc;
   }
 }
+@media screen and (min-width: 1200px) {
+  .employee-page {
+    background: var(--icons-color);
+  }
+  .employee-list {
+    display: flex;
+    gap: 24px;
+  }
+  .employee-name {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+  }
+  .employee-text {
+    padding-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+  }
+  .employee-card-content {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--brand-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .social-list-link:hover,
+  .social-list-link:focus {
+    background-color: var(--accent-kolor);
+  }
+  .social-list-icon {
+    fill: var(--icons-color);
+  }
+  .color-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    background: var(--background-origin);
+  }
+}

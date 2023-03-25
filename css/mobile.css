@@ -88,16 +88,15 @@
   }
 }
 @media screen and (min-width: 480px) {
+  .features {
+  }
   .features-description {
-    display: block;
   }
   .features-list {
   }
   .features-text {
-    width: 396px;
     display: flex;
     justify-content: center;
-    margin-bottom: 72px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -112,5 +111,15 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(#2e2f42);
+  }
+}
+@media screen and (min-width: 480px) {
+  .employee-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
+    column-gap: 24px;
   }
 }
