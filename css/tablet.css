@@ -116,8 +116,11 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .customers {
+  }
   .customers-list {
     width: 168px;
-    height: 88px;
+    height: 80px;
+    width: calc((100% - 24px) / 3);
   }
 }
