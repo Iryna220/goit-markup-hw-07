@@ -115,3 +115,9 @@
     row-gap: 64px;
   }
 }
+@media screen and (min-width: 768px) {
+  .customers-list {
+    width: 168px;
+    height: 88px;
+  }
+}
