@@ -191,7 +191,7 @@
     background: var(--background-origin);
   }
 }
-@media screen and(min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .customers {
     display: flex;
     justify-content: center;

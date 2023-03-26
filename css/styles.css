@@ -451,7 +451,7 @@ img {
 
 .customers-link {
   padding: 16px 32px;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   width: 100%;
