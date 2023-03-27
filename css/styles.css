@@ -469,3 +469,128 @@ img {
 .customers-item {
   fill: currentColor;
 }
+/* mobile style */
+@media screen and (min-width: 428px) {
+  .mobile-header {
+    display: none;
+  }
+  .mobile-header-list,
+  .mobile-adress,
+  .adress-page {
+    display: none;
+  }
+  .features-list-link,
+  .features-list-icon {
+    display: none;
+  }
+
+  .logo-first {
+    margin-right: 120px;
+  }
+}
+@media screen and (min-width: 480px), (min-width: 767px) {
+  .main-gallery {
+    display: none;
+  }
+}
+@media screen and (max-width: 479px) {
+  .modal {
+    width: calc(100% - (15px * 2));
+  }
+  .modal-form-check-desc {
+    font-size: 8px;
+    letter-spacing: 0.02em;
+  }
+  .media-list-link:not(:last-child) {
+    margin-right: 28px;
+  }
+  .mob-social-phone {
+    font-size: 36px;
+  }
+  .mob-social {
+    margin-top: auto;
+  }
+  .hero {
+    max-width: 428px;
+    height: 432px;
+  }
+  .titel-hero {
+    font-weight: 700;
+    margin: 0 auto 72px;
+    font-size: 36px;
+    line-height: 1.11px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 480px) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/mobile.bg/mobile-bg.jpg);
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 480px),
+  screen and (min-resolution: 192dpi) and (min-width: 480px),
+  screen and (min-resolution: 2dppx) and (min-width: 480px) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/mobile.bg/mobile-bg@2x.jpg);
+  }
+}
+@media screen and (min-width: 480px) {
+  .features-text {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .features-caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(#2e2f42);
+  }
+}
+@media screen and (min-width: 480px) {
+  .employee-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
+    column-gap: 24px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .customers-list {
+    width: 168px;
+    height: 88px;
+  }
+  .customers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    row-gap: 72px;
+  }
+  .customers-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

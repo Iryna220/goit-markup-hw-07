@@ -11,7 +11,7 @@
     padding-bottom: 96px;
   }
 }
-@media screen and (min-width: 428px) {
+/* @media screen and (min-width: 428px) {
   .mobile-header {
     display: none;
   }
@@ -88,12 +88,6 @@
   }
 }
 @media screen and (min-width: 480px) {
-  .features {
-  }
-  .features-description {
-  }
-  .features-list {
-  }
   .features-text {
     display: flex;
     justify-content: center;
@@ -140,4 +134,4 @@
     align-items: center;
     justify-content: center;
   }
-}
+} */
