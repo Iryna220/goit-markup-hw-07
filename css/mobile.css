@@ -125,6 +125,8 @@
 }
 @media screen and (min-width: 480px) {
   .customers-list {
+    width: 168px;
+    height: 88px;
   }
   .customers {
     display: flex;
@@ -134,6 +136,8 @@
     row-gap: 72px;
   }
   .customers-link {
-    padding: 16px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
